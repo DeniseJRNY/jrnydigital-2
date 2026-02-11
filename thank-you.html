@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - JRNY Digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .thank-you-container {
+            text-align: center;
+            max-width: 600px;
+            padding: 60px 30px;
+        }
+
+        .thank-you-icon {
+            width: 80px;
+            height: 80px;
+            background: #F5A623;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 40px;
+        }
+
+        .thank-you-icon svg {
+            width: 40px;
+            height: 40px;
+            stroke: #000000;
+            fill: none;
+            stroke-width: 3;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        .thank-you-container h1 {
+            font-size: 48px;
+            font-weight: 400;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .thank-you-container p {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.7;
+            margin-bottom: 40px;
+        }
+
+        .thank-you-btn {
+            display: inline-block;
+            background-color: #F5A623;
+            color: #000000;
+            padding: 16px 40px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .thank-you-btn:hover {
+            background-color: #e09515;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="thank-you-container">
+        <div class="thank-you-icon">
+            <svg viewBox="0 0 24 24">
+                <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+        </div>
+        <h1>Thank You!</h1>
+        <p>Your submission has been received. Our team will review your details and get back to you within 24 hours. We're excited to help you grow your business!</p>
+        <a href="index.html" class="thank-you-btn">Back to Home</a>
+    </div>
+</body>
+</html>
