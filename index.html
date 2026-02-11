@@ -1476,10 +1476,6 @@
             border: 1px solid rgba(255, 255, 255, 0.06);
             border-radius: 16px;
             padding: 50px;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 50px;
-            align-items: center;
         }
 
         .maths-callout-text p {
@@ -1501,71 +1497,6 @@
         .maths-callout-text .maths-cta {
             margin-top: 28px;
             display: inline-block;
-        }
-
-        .maths-callout-highlight {
-            text-align: center;
-        }
-
-        .maths-highlight-top {
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: #ffffff;
-            margin-bottom: 8px;
-        }
-
-        .maths-highlight-people {
-            font-size: 80px;
-            font-weight: 800;
-            color: #F5A623;
-            line-height: 1;
-        }
-
-        .maths-highlight-label {
-            font-size: 18px;
-            color: #ffffff;
-            margin-top: 4px;
-            margin-bottom: 30px;
-        }
-
-        .maths-highlight-divider {
-            width: 60px;
-            height: 2px;
-            background: rgba(255, 255, 255, 0.1);
-            margin: 0 auto 30px;
-        }
-
-        .maths-highlight-from {
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: #ffffff;
-            margin-bottom: 8px;
-        }
-
-        .maths-highlight-price {
-            font-size: 52px;
-            font-weight: 800;
-            color: #ffffff;
-            line-height: 1;
-        }
-
-        .maths-highlight-price span {
-            font-size: 22px;
-            font-weight: 400;
-            color: #ffffff;
-        }
-
-        @media (max-width: 1024px) {
-            .maths-callout {
-                grid-template-columns: 1fr;
-            }
-
-            .maths-callout-highlight {
-                padding-top: 20px;
-                border-top: 1px solid rgba(255, 255, 255, 0.06);
-            }
         }
 
         @media (max-width: 768px) {
@@ -2803,7 +2734,7 @@
         .plan-card-price span {
             font-size: 16px;
             font-weight: 400;
-            color: #ffffff;
+            color: rgba(255, 255, 255, 0.5);
         }
 
         .plan-card-desc {
@@ -4904,17 +4835,9 @@
 
         <div class="maths-callout">
             <div class="maths-callout-text">
-                <p>With JRNY, you get all 6 of those capabilities — plus analytics, reporting, and senior strategic oversight — <strong>starting from $3k/month.</strong></p>
-                <p><strong>That's a full marketing department for roughly the cost of one junior hire.</strong></p>
+                <p>With JRNY, you get all 6 of those capabilities — plus analytics, reporting, and senior strategic oversight — <strong>for roughly the cost of one junior hire.</strong></p>
+                <p><strong>That's a full marketing department on a flat monthly retainer.</strong></p>
                 <a href="#plans" class="btn-primary maths-cta">See Which Plan Fits Your Business</a>
-            </div>
-            <div class="maths-callout-highlight">
-                <p class="maths-highlight-top">You get</p>
-                <p class="maths-highlight-people">6</p>
-                <p class="maths-highlight-label">specialists, one team</p>
-                <div class="maths-highlight-divider"></div>
-                <p class="maths-highlight-from">Starting from</p>
-                <p class="maths-highlight-price">$3k<span>/mo</span></p>
             </div>
         </div>
     </section>
@@ -5098,40 +5021,37 @@
         <h2>Choose the Team That Fits Your Growth Stage</h2>
 
         <div class="plans-grid">
-            <!-- Tier 1 -->
+            <!-- Growth Accelerator -->
             <div class="plan-card">
-                <div class="plan-card-tier">Tier 1</div>
-                <h3>Growth Starter</h3>
-                <div class="plan-card-price">$3k<span>/month</span></div>
-                <p class="plan-card-desc">For businesses ready to build a real marketing foundation. Includes a dedicated strategist, one primary channel (paid search or paid social), landing page optimisation, and monthly performance reporting.</p>
-                <p class="plan-card-best"><strong>Best for:</strong> Businesses doing $1M–$2M looking to establish a structured marketing function for the first time</p>
-                <a href="contact-us.html" class="btn-primary">Get Started</a>
-            </div>
-
-            <!-- Tier 2 -->
-            <div class="plan-card popular">
-                <div class="plan-card-popular-tag">Most Popular</div>
-                <div class="plan-card-tier">Tier 2</div>
-                <h3>Growth Partner</h3>
-                <div class="plan-card-price">$5k<span>/month</span></div>
-                <p class="plan-card-desc">Your full marketing department. Includes senior strategic leadership, multi-channel paid media, SEO, conversion optimisation, email/SMS marketing, creative development, and weekly strategy calls.</p>
-                <p class="plan-card-best"><strong>Best for:</strong> Businesses doing $2M–$5M that need a complete marketing team and CMO-level strategic guidance</p>
-                <a href="contact-us.html" class="btn-primary">Get Started</a>
-            </div>
-
-            <!-- Tier 3 -->
-            <div class="plan-card">
-                <div class="plan-card-tier">Tier 3</div>
+                <div class="plan-card-price">$12K<span>+GST /mo</span></div>
                 <h3>Growth Accelerator</h3>
-                <div class="plan-card-price">$10k<span>/month</span></div>
-                <p class="plan-card-desc">For businesses scaling aggressively. Everything in Growth Partner, plus expanded channel coverage, advanced conversion infrastructure, retention and lifecycle marketing, and dedicated creative production capacity.</p>
+                <p class="plan-card-desc">Everything in Growth Partner — plus expanded channel coverage, advanced conversion infrastructure, dedicated creative capacity, and retention & lifecycle marketing. Built for businesses scaling aggressively.</p>
                 <p class="plan-card-best"><strong>Best for:</strong> Businesses doing $5M+ with proven product-market fit that want to scale marketing as a core growth lever</p>
+                <a href="contact-us.html" class="btn-primary">Get Started</a>
+            </div>
+
+            <!-- Growth Partner (Recommended) -->
+            <div class="plan-card popular">
+                <div class="plan-card-popular-tag">Recommended</div>
+                <h3>Growth Partner</h3>
+                <div class="plan-card-price">$5K<span>+GST /mo</span></div>
+                <p class="plan-card-desc">Your full marketing department. Strategy, creative, execution, and reporting — all under one roof. We embed into your business and own your marketing like it's ours.</p>
+                <p class="plan-card-best"><strong>Best for:</strong> Businesses doing $2M–$10M that want one team, one retainer, and complete accountability to revenue</p>
+                <a href="contact-us.html" class="btn-primary">Get Started</a>
+            </div>
+
+            <!-- Growth Sprint -->
+            <div class="plan-card">
+                <div class="plan-card-price">$10K<span>+GST</span></div>
+                <h3>Growth Sprint</h3>
+                <p class="plan-card-desc">A focused, intensive engagement to audit your current marketing, identify revenue gaps, and deliver a clear execution roadmap your team can run with — or we can.</p>
+                <p class="plan-card-best"><strong>Best for:</strong> Businesses doing $1M–$5M that want expert eyes on their marketing before committing to ongoing support</p>
                 <a href="contact-us.html" class="btn-primary">Get Started</a>
             </div>
         </div>
 
         <div class="plans-includes-bar">
-            <strong>All plans include:</strong> flat-rate pricing (no surprise fees), month-to-month flexibility after initial onboarding, full reporting and attribution, and a dedicated strategist as your single point of contact.
+            <strong>All engagements include:</strong> flat-rate pricing (no surprise fees), no percentage of ad spend, full reporting & attribution, and a dedicated strategist as your single point of contact. No lock-in contracts — after onboarding.
         </div>
 
         <div class="plans-cta-card">
